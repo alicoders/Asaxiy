@@ -15,34 +15,79 @@
 </head>
 <body>
     <nav id="navbar">
-        <div class="navbar">
+        <div class="col-2"></div>
+        <div class="navbar col-8">
             <div class="navbar__top-section">
                 <div class="navbar__top-logo">
-                    <img src="	https://asaxiy.uz/custom-assets/images/logos/asaxiy-logo.svg" alt="">
+                   <a href="index.html"> <img src="	https://asaxiy.uz/custom-assets/images/logos/asaxiy-logo.svg" alt=""></a>
                 </div>
                 <div class="navbar__top-collection">
-                    <i class="fa-solid fa-bars"></i>
+                    <a href="#collections">
+                        <button id="collection-btn">
+                            <i class="fa-solid fa-bars"></i>
+                            <p>collections</p>
+                        </button>
+                    </a>
                 </div>
-                <div class="navbar__top-searching"></div>
-                <div class="navbar__top-payment"></div>
-                <div class="navbar__top-tracking"></div>
-                <div class="navbar__top-shopping-cart"></div>
-                <div class="navbar__top-favourites"></div>
-                <div class="navbar__top-languages"></div>
-                <div class="navbar__top-logIn"></div>
+                <div class="navbar__top-searching">
+                    <form action="">
+                        <input placeholder=" Searching..." type="search">
+                        <a href="#search"><button id="search">search</button></a>
+                    </form>
+                </div>
+                <div id="navbar__icons-style" class="navbar__top-payment">
+                    <a href="#payment">
+                        <i class="fa-solid fa-credit-card"></i>
+                        <p>payment</p>
+                    </a>
+                </div>
+                <div id="navbar__icons-style" class="navbar__top-tracking">
+                    <a href="#tracking">
+                        <i class="fa-solid fa-truck-fast"></i>
+                        <p>Truck</p>
+                    </a>
+                </div>
+                <div id="navbar__icons-style" class="navbar__top-shopping-cart">
+                    <a href="#cart">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <p>cart</p>
+                    </a>
+                    <div class="counter">0</div>
+                </div>
+                <div id="navbar__icons-style" class="navbar__top-favourites">
+                    <a href="#favorites">
+                        <i class="fa-regular fa-heart"></i>
+                        <p>favourites</p>
+                    </a>
+                    <div class="favourite__counter">0</div>
+                </div>
+                <div id="navbar__icons-style" class="navbar__top-languages">
+                    <a href="#languages">
+                        <i class="fa-solid fa-language"></i>
+                        <p id="lang">eng</p>
+                    </a>
+                </div>
+                <div id="navbar__icons-style" class="navbar__top-logIn">
+                    <a href="#signIN">
+                        <i class="fa-regular fa-user"></i>
+                        <p>enter</p>
+                    </a>
+                </div>
             </div>
+            <hr>
             <div class="navbar__bottom-section">
-                <div class="navbar__bottom-discount">
-                    <p><a href="#discount">discount</a></p>
-                    <p><a href="#phonesGadgets">phones and gadgets</a></p>
-                    <p><a href="#household">household appliances</a></p>
-                    <p><a href="#books">books</a></p>
-                    <p><a href="#televisions">televisions</a></p>
-                    <p><a href="#newArrivals">new arrivals</a></p>
-                    <p><a href="#laptops">laptops</a></p>
+                <div class="navbar__bottom-top_products">
+                    <a href="#discount">Discount</a>
+                    <a href="#phonesGadgets">Phones and gadgets</a>
+                    <a href="#household">Household appliances</a>
+                    <a href="#books">Books</a>
+                    <a href="#televisions">Televisions</a>
+                    <a href="#newArrivals">New arrivals</a>
+                    <a href="#laptops">Laptops</a>
                 </div>
             </div>
         </div>
+        <div class="col-2"></div>
     </nav>
     <div class="container">
 
